@@ -51,7 +51,7 @@
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
-    cursor: pointer;
+    /*cursor: pointer;*/
     transition: 0.25s;
 }
 .toggle.active{
@@ -59,7 +59,7 @@
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
-    cursor: pointer;
+    /*cursor: pointer;*/
     transition: 0.25s;
 }
 .showcase video {
