@@ -193,25 +193,7 @@ transition: .5s;
 }
 
 /* ### CONTACT ### */
-section .container{
-    position: relative;
-    min-width: 110px;
-    min-height: 550px;
-    display: flex;
-    z-index: 1000;
-}
 
-section .container .aboutus{
-    position: absolute;
-    top: 40px;
-    width: 350px;
-    height: calc(100% - 80px);
-    background: #ffbd00;
-    z-index: 1;
-    padding: 40px;
-    display: flex;
-    justify-self: ;
-}
 /* ### MENU ### */
 .menu{
   position: absolute;
@@ -256,6 +238,22 @@ section .container .aboutus{
         font-size: 2em;
     }
 }
+
+@media(min-width: 375px) {
+    .showcase,
+    .showcase header {
+        padding: 20px;
+    }
+
+    .text h2 {
+        font-size: 2em;
+    }
+
+    .text h3 {
+        font-size: 1em;
+    }
+}
+
 
 .animate-out {
     animation: fadeOut 300ms forwards;
