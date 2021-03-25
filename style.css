@@ -224,6 +224,21 @@ transition: .5s;
   color: #7d7b7a; 
 }
 
+@media(min-width: 600px) {
+    .showcase,
+    .showcase header {
+        padding: 20px;
+    }
+
+    .text h2 {
+        font-size: 1.25em;
+    }
+
+    .text h3 {
+        font-size: 1em;
+    }
+}
+
 @media(max-width: 798px) {
     .showcase,
     .showcase header {
@@ -238,22 +253,6 @@ transition: .5s;
         font-size: 2em;
     }
 }
-
-@media(min-width: 360px) {
-    .showcase,
-    .showcase header {
-        padding: 20px;
-    }
-
-    .text h2 {
-        font-size: 1em;
-    }
-
-    .text h3 {
-        font-size: 1em;
-    }
-}
-
 
 .animate-out {
     animation: fadeOut 300ms forwards;
