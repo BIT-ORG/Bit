@@ -239,18 +239,18 @@ transition: .5s;
     }
 }
 
-@media(min-width: 375px) {
+@media(min-width: 360px) {
     .showcase,
     .showcase header {
         padding: 20px;
     }
 
     .text h2 {
-        font-size: 0.5em;
+        font-size: 1em;
     }
 
     .text h3 {
-        font-size: 0.75em;
+        font-size: 1em;
     }
 }
 
