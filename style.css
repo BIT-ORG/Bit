@@ -246,11 +246,11 @@ transition: .5s;
     }
 
     .text h2 {
-        font-size: 1em;
+        font-size: 0.5em;
     }
 
     .text h3 {
-        font-size: 1em;
+        font-size: 0.75em;
     }
 }
 
